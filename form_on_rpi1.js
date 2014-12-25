@@ -1,0 +1,6 @@
+var readyFunction = function () {
+
+
+};
+
+$(readyFunction);

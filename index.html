@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title></title>
+    <meta charset="UTF-8">
+    <script src="jquery-2.1.1.js"></script>
+    <script src="form_on_rpi1.js"></script>
+    <script src="moment.js"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="main1.css">
+</head>
+<body>
+
+<h1>Comments</h1>
+
+<div class="enterComment" id="enterComment">
+    <div class="authorName">
+        <div class="correct" id="nam">Please enter a name.</div>
+        <input type="text" class="conner" id="name" value="Fievel Mouskewitz" autofocus>
+    </div>
+
+    <div class="authorComment">
+        <div class="correct" id="com">Please enter a comment.</div>
+        <textarea rows="5" cols="47" class="conner" id="aCom">This is little mouse, which did not never despair!</textarea>
+    </div>
+
+    <input type="button" class="butAdd" value="Add a comment" name="Add">
+
+    <input type="button" class="butAddMC" value="Show more comments" name="showMoreComments">
+
+    <input type="button" class="butReset" value="Reset all comments" name="resetComments">
+
+</div>
+
+<h3><strong>Comments:</strong></h3>
+
+<div class="comments container" id="comments"></div>
+
+<input type="button" class="butAdd" value="Add a comment" name="Add">
+
+<input type="button" class="butAddMC" value="Show more comments" name="showMoreComments">
+
+<input type="button" class="butReset" value="Reset all comments" name="resetComments">
+
+</body>
+</html>
